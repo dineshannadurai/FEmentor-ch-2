@@ -93,6 +93,15 @@ main {
     position: relative;
 }
 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: var(--slightly-transparent-white);
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
 @media (max-width: 1200px) {
     .card-container {
         flex-direction: column-reverse;
